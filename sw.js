@@ -14,6 +14,9 @@ self.addEventListener('install', function(e) {
     })
   );
 });
+self.addEventListener('activate', function(e) {
+  self.clients.claim();
+});
 
 /* Serve cached content when offline */
 self.addEventListener('fetch', function(e) {
