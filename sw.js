@@ -4,6 +4,13 @@ var filesToCache = [
   './index.html',
   './css/style.css',
   './js/main.js'
+  './images/hello-icon-128.png',
+  './images/hello-icon-144.png',
+  './images/hello-icon-152.png',
+  './images/hello-icon-192.png',
+  './images/hello-icon-256.png',
+  './images/hello-icon-128.png',
+  './manifest.json',
 ];
 
 /* Start the service worker and cache all of the app's content */
