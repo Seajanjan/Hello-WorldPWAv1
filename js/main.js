@@ -8,4 +8,4 @@ if ('serviceWorker' in navigator) {
         // registration failed :(
         console.log('ServiceWorker registration failed: ', err);
     });
-}
+} 
