@@ -31,5 +31,4 @@
   "display": "standalone",
   "background_color": "white",
   "theme_color": "white"
-  "serviceworker": "serviceworker.js"
 }
