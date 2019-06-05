@@ -1,4 +1,4 @@
-
+{
   "name": "Hello World",
   "short_name": "Hello",
   "lang": "en-US",
@@ -31,3 +31,4 @@
       "sizes": "512x512",
       "type": "image/png"
     }],
+}
