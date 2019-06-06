@@ -11,7 +11,7 @@ var filesToCache = [
   './images/hello-icon-256.png',
   './images/hello-icon-128.png',
   './manifest.json',
-  './favicon.ico',
+  './favicon.ico'
 ];
 
 /* Start the service worker and cache all of the app's content */
