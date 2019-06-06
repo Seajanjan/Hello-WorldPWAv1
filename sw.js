@@ -23,6 +23,10 @@ self.addEventListener('install', function(e) {
   );
 });
 
+self.addEventListener('activate',  event => {
+  event.waitUntil(self.clients.claim());
+});
+
 /* Serve cached content when offline */
 self.addEventListener('fetch', function(e) {
   e.respondWith(
